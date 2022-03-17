@@ -1,0 +1,54 @@
+/*Global*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  width: 1280px;
+}
+/*Header*/
+header h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url('./images/pattern.webp');
+  margin: 80px 3px;
+}
+/*Sections*/
+section h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  margin: 40px 0;
+}
+
+.brushes h2 {
+  background-color: mediumspringgreen;
+}
+
+.frames h2 {
+  background-color: lightcoral;
+}
+
+.paint h2 {
+  background-color: skyblue;
+}
+
+section p {
+  margin: 20px 0;
+}
+
+section p span {
+  font-weight: bold;
+  color: blue;
+}
+/*Figures*/
+figcaption {
+  font-weight: bold;
+  margin: 20px 0;
+}
